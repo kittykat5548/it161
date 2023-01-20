@@ -1,0 +1,99 @@
+/* Styles for the Metropolitan Opera 2 page website*/
+
+* {
+padding:0;
+margin:0;
+
+}
+
+/*When you have a 2 word property, it must be seperated with a hyphen*/
+body{
+background-color:tan;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-image:url(../images/notes.png);
+background-attachment: fixed;
+/*png = transparency*/
+}
+
+div#wrapper{
+background:beige;
+width:940px;
+padding:20px;
+margin:20px auto;
+overflow:hidden;
+}
+
+footer{
+height:50px;
+background:tan;
+line-height:50px;
+font-size:.9em;
+/*when you clear an element, you cannot add space above that element with a margin-top. You must use margin-bottom on the element that it had cleared!!! */
+}
+
+footer a {
+color:brown;    
+}
+
+footer li {
+list-style-type:none;
+float:left;
+margin-right:30px;
+color:brown;
+}
+
+
+
+footer ul {
+margin-left:20px;
+}
+
+h1 {
+font-size:2.5m;    
+}
+
+h2 {
+font-size:1.8m;    
+}
+
+h1,h2{
+margin-bottom:8px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:brown;
+}
+
+header {
+background:#fff;
+margin-bottom:20px;
+}
+
+
+img.right{
+    float:right;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+
+img.left{
+    float:left;
+    margin-right:30px;
+    margin-bottom:10px;
+}
+
+.center {
+    /*NO FLOAT CENTER!!!!!*/
+margin:20px auto;
+     /* centering the image */
+display: block;
+     /*we must change the inline image to a block level image*/    
+text-align: center;
+}
+
+
+p{
+margin-bottom:20px;
+line-height:1.4;    
+}
+
+
+

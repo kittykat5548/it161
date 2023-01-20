@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Form clasexcise</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Don't forget, your form will not work locally- it must be uploaded onto the server-->
+<!--Our formhandler that we will be downloading is using php- hypertext preprocesing language will only work on a server, not locally-->
+<form action="formhandler.php" method="post">
+<fieldset>
+
+<label>Name</label>
+<input type="text" name="name">
+<label>Email</label>
+<input type="email" name="email">
+
+<label>Gender</label>
+<ul>
+<li><input type="radio" name="gender" value="female">Female</li>
+<li><input type="radio" name="gender" value="male">Male</li>
+<li><input type="radio" name="gender" value="other">Other</li>
+</ul>
+
+<label>Favorite Wines</label>
+<ul>
+    <li><input type="checkbox" name="wines[]" value="cab">Cabernet</li>
+    <li><input type="checkbox" name="wines[]" value="merlot">Merlot</li>
+    <li><input type="checkbox" name="wines[]" value="malbec">Malbec</li>
+    <li><input type="checkbox" name="wines[]" value="syrah">Syrah</li>
+</ul>
+
+<label>Regins</label>
+<select name="regins">
+<option value="">Select one</option>    
+<option value="nw">Northwest</option> 
+<option value="sw">Southwest</option> 
+<option value="mw">Midwest</option> 
+<option value="so">South</option> 
+<option value="ne">Norhteast</option> 
+</select>
+
+<label>Comments</label>
+<textarea name="comments"></textarea>
+<input type="submit" name="submit" value="Send it">
+
+
+</fieldset>
+   </form>
+</body>
+</html>

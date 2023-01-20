@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Contact Form homework</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    
+ <div id="wrapper">
+    <header>
+<a href="">
+    <img src="images/logo.jpg" alt="logo">
+</a>
+    </header>
+<main> 
+    <h1>Contact us today!</h1>  
+<form action="formhandler.php" method="post">
+<fieldset>
+<legend>Contact Talana</legend>
+
+<label>Name</label>
+<input type="text" name="name">
+<label>Email</label>
+<input type="email" name="email">
+
+<label>Gender</label>
+<ul>
+<li><input type="radio" name="gender" value="female">Female</li>
+<li><input type="radio" name="gender" value="male">Male</li>
+<li><input type="radio" name="gender" value="other">Other</li>
+</ul>
+
+<label>Favorite Wines</label>
+<ul>
+    <li><input type="checkbox" name="wines[]" value="cab">Cabernet</li>
+    <li><input type="checkbox" name="wines[]" value="merlot">Merlot</li>
+    <li><input type="checkbox" name="wines[]" value="malbec">Malbec</li>
+    <li><input type="checkbox" name="wines[]" value="syrah">Syrah</li>
+</ul>
+
+<label>Regins</label>
+<select name="regins">
+<option value="">Select one</option>    
+<option value="nw">Northwest</option> 
+<option value="sw">Southwest</option> 
+<option value="mw">Midwest</option> 
+<option value="so">South</option> 
+<option value="ne">Norhteast</option> 
+</select>
+
+<label>Comments</label>
+<textarea name="comments"></textarea>
+<input type="submit" name="submit" value="Send it">
+
+<p><a href="">Reset</a></p>
+</fieldset>
+</form>
+
+</main>
+
+<aside>
+<h3>This is my headline 3!</h3>
+<p>Donec hendrerit lorem id semper molestie. Quisque ultrices sit amet nisi lobortis consequat. Vestibulum vel quam eu est ullamcorper bibendum posuere ultricies odio. Quisque ac tristique massa. Integer vitae est mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam sed felis odio</p>
+<img src="images/wine-barrels.jpg" alt="wine-barrels">
+</aside>
+
+<footer>
+<ul>
+<li>Copyright &copy; 2022</li>
+<li>All Rights Reserved</li>
+<li><a href="../index.html">Web Design by Talana</a></li>
+<li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcentral.mystudentswa.com%2Ftalanasw%2Fit161%2Fform%2Fcontact.html">HTML Valid</a></li>
+</ul>
+
+</footer>
+
+<!--end wrapper-->
+</div>   
+</body>
+</html>
