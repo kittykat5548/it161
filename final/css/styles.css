@@ -1,0 +1,345 @@
+/*Styles for our wine website*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/*.home #primary li:nth-child(1) a, 
+.about #primary li:nth-child(2) a,
+.artwork #primary li:nth-child(3) a,
+.tours #primary li:nth-child(4) a,
+.contact #primary li:nth-child(5) a
+{
+    background:skyblue;
+    color:#fff;
+}
+
+.dragons #secondary li:nth-child(1)a,
+.pyramids #secondary li:nth-child(2)a,
+.hearts #secondary li:nth-child(3)a,
+.pillows #secondary li:nth-child(4)a,
+.fusebeads #secondary li:nth-child(5)a{
+    background:skyblue;
+    color:#fff;  
+}*/
+
+
+body{
+    /*background:lightseagreen;*/
+    background-image:url(../images/background.png);
+   /* background-repeat: repeat;
+    background-position: 220px 0;*/
+    background-size: cover;
+}
+
+header{
+    background:rgb(135, 206, 250, 0.6);
+    width:180px;
+    height:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+nav li{
+height: 40px;
+line-height: 40px;
+background:powderblue ;
+position: relative;
+}
+
+nav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:blue;
+    display: block;
+}
+
+nav a:hover{
+    background:lightseagreen;
+    color:white;
+}
+
+.drop-down{
+    display: none;
+}
+
+nav li:hover .drop-down{
+display: block;
+position: absolute;
+top:0;
+left:120px;
+z-index: 1;
+width: 140px;
+list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+main img{
+    float:right;
+    padding: 10px;
+}
+
+main li img{
+  
+    height:260px;
+    /*width:200px;*/
+    max-width: 100%;
+    /*float:left;*/
+    padding: 10px;
+    margin:0 auto; 
+}
+main li {
+  list-style-type: none;
+}
+
+.col-8 img{
+    height:340px;
+    /*width:200px;*/
+    max-width: 100%;
+    float:left;
+    padding: 10px;
+    margin:0 auto; 
+}
+
+.col-8 img:last-of-type{
+    float: right;
+}
+
+.third img {
+    padding: 10px;
+    margin:0 auto;
+    height:240px;
+}
+
+aside img{
+   /* max-width: 100%;
+    float:right;*/
+    padding: 10px;
+    margin:0 auto;
+}
+
+form{
+    max-width: 580px;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    padding:10px ;
+    border-radius: 5px;
+    border:1px dotted purple;
+}
+
+label{
+    display:block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:aquamarine
+}
+
+input{
+    margin-bottom: 10px;
+    height: 30px;
+    width:100%;
+
+}
+
+input[type="submit"]{
+width:auto;
+}
+
+
+input[type="checkbox"]{
+    height: auto;
+    width:auto;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+form li{
+    list-style-type: none;
+    color:aquamarine;
+}
+
+form ul{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color:aquamarine;
+}
+
+textarea{
+    width:100%;
+    height:110px;
+    margin-bottom: 10px;
+    color:aquamarine;
+}
+
+#logo {
+    margin-top: 100px;
+    margin-bottom:30px;
+}
+
+.row{
+  background: lightskyblue; 
+   padding:20px;
+   overflow: hidden;
+}
+
+
+
+
+
+.third{
+    width:300px;
+    height:380px;
+    /*background:lavenderblush;*/
+    margin-right: 20px;
+    float:left;
+}
+
+.third:last-of-type{
+    margin-right: 0px;
+}
+
+#wrapper{
+margin:50px 0px 100px 200px;
+width:980px;
+background:rgb(135, 206, 250, .7);
+}
+
+footer{
+    height:60px;
+    line-height: 60px;
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    left:180px;
+    background:rgb(135, 206, 250, .7);
+}
+
+footer li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+main{
+    width:480px;
+    float:left;
+    height:600px;
+    /*background:lightblue;*/
+    padding:9px;
+}
+
+aside{
+    width:340px;
+    float:right;
+   /* height:400px;
+    background: powderblue;*/
+    padding:10px;
+}
+
+.col-8 {
+    width:460px;
+    /*height:400px;*/
+   /* background:plum;*/
+    float:left;
+
+}
+
+
+
+
+
+
+/*Typrography*/
+h1, h2, h3 {
+    font-family: 'alex_brushregular';
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: -10px;
+    font-weight: 200;
+    color:blue
+}
+
+h2, h3{
+    font-size: 2em;
+    margin:10px;
+}
+
+
+
+/*h3{
+    font-size:1em;
+}*/
+
+blockquote{
+    font-family:'milkshakeregular';
+    font-size: 2em;
+    margin:10px;
+}
+
+.third h3{
+    font-size: 1.5em;
+    font-weight:bold;
+    /*color:blue;
+    font-family: 'alex_brushregular';*/
+}
+
+aside p {
+    font-size: .9em;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.third p{
+    text-align:center;
+    margin-bottom:9px; 
+    font-size:.9em;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+
+
+
+
+li img{
+    margin-top: 5px;
+}
+
+
+
+.col-8 h3{
+    font-size: 1.5em;
+    font-weight:bold;
+    /*color:blue;
+    font-family: 'alex_brushregular';*/
+    text-align: center;
+}
+
+
+
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'milkshakeregular';
+    src: url('../fonts/milkshake-webfont.woff2') format('woff2'),
+         url('../fonts/milkshake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pyramids page of our Art Website</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="pyramids">
+<header>
+<a href="artwork.html">
+    <img id=logo src="images/logo.jpg" alt="logo">
+</a>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="artwork.html">Art Work</a>
+<ul class="drop-down">
+<li><a href="dragons.html">Dragons</a></li>
+<li><a href="pyramids.html">Pyramids</a></li>
+<li><a href="hearts.html">Hearts</a></li>
+<li><a href="pillows.html">Pillows</a></li>
+<li><a href="fusebeads.html">Fuse Beads</a></li>
+</ul>
+</li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+
+</nav>
+
+</header>
+
+<div id="wrapper">
+<h1>Welcome to my Pyramids!</h1>
+
+
+<main>
+<ul>
+<li><a href="artwork.html" title="Return to artwork!">    
+<img class="left" src="images/pyramid7.jpg" alt="pyramid"></a></li>
+<li><img src="images/pyramid2.jpg" alt="pyramid2"></li>
+<li><img src="images/pyramid4.jpg" alt="pyramid3"></li>
+<li><img src="images/pyramid6.jpg" alt="pyramid6"></li>
+</ul>
+
+</main> 
+
+<aside>
+<form action="formhandler.php" method="post">
+<fieldset>
+
+<label>Figures</label>
+<ul>
+    <li><input type="checkbox" name="stitch[]" value="stitch">Stitch</li>
+    <li><input type="checkbox" name="babyyoda[]" value="babyyoda">Babyyoda</li>
+    <li><input type="checkbox" name="pawpatrol[]" value="pawpatrol">Paw Patrol</li>
+    <li><input type="checkbox" name="valentine[]" value="valentine">Valentine</li>
+</ul>
+
+
+<label>Colors</label>
+<select name="colors">
+<option value="">Select one</option> 
+<option value="red">Red</option>
+<option value="blue">Blue </option>
+<option value="green">Green </option>
+<option value="purple">Purple</option>
+<option value="multicolor">multicolor</option>
+</select>
+
+<label>Comments</label>
+<textarea name="comments"></textarea>
+<input type="submit" name="submit" value="Send it">
+</fieldset>
+</form>
+</aside>
+</div> <!--closed wrapper-->
+
+<footer>
+<ul>
+<li>Copyright &copy; 2022</li>
+<li>All Rights Reserved</li>
+<li><a href="">Terms of use</a></li>
+<li><a href="../index.html">Web design by Talana</a></li>
+<li><a href="https://central.mystudentswa.com/talanasw/it161/final/pyramids.html"><img src="images/html5.png" alt="html5"></a></li>
+</ul>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dragons page of our Art Website</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="dragons">
+<header>
+<a href="artwork.html">
+    <img id=logo src="images/logo.jpg" alt="logo">
+</a>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="artwork.html">Art Work</a>
+<ul class="drop-down">
+<li><a href="dragons.html">Dragons</a></li>
+<li><a href="pyramids.html">Pyramids</a></li>
+<li><a href="hearts.html">Hearts</a></li>
+<li><a href="pillows.html">Pillows</a></li>
+<li><a href="fusebeads.html">Fuse Beads</a></li>
+</ul>
+</li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+
+</nav>
+
+</header>
+
+<div id="wrapper">
+<h1>Welcome to my Dragons!</h1>
+
+
+<main>
+<ul>
+<li><a href="artwork.html" title="Return to artwork!">    
+<img class="left" src="images/dragon.jpg" alt="dragonpendant"></a></li>
+<li><img src="images/dragonhead.jpg" alt="dragonhead"></li>
+<li><img src="images/waterdragon2.jpg" alt="waterdragon"></li>
+<li><img src="images/curleddragon.jpg" alt="curleddragon"></li>
+</ul>
+
+</main> 
+
+<aside>
+<form action="formhandler.php" method="post">
+<fieldset>
+
+<label>Dragons</label>
+<ul>
+    <li><input type="checkbox" name="dragonpendant[]" value="pendant">Pendant</li>
+    <li><input type="checkbox" name="dragonhead[]" value="head">Head</li>
+    <li><input type="checkbox" name="waterdragon[]" value="water">Water</li>
+    <li><input type="checkbox" name="curleddragon[]" value="curled">Curled</li>
+</ul>
+
+
+<label>Colors</label>
+<select name="colors">
+<option value="">Select one</option> 
+<option value="red">Red</option>
+<option value="blue">Blue </option>
+<option value="green">Green </option>
+<option value="purple">Purple</option>
+<option value="multicolor">multicolor</option>
+</select>
+
+<label>Comments</label>
+<textarea name="comments"></textarea>
+<input type="submit" name="submit" value="Send it">
+</fieldset>
+</form>
+</aside>
+</div> <!--closed wrapper-->
+
+<footer>
+<ul>
+<li>Copyright &copy; 2022</li>
+<li>All Rights Reserved</li>
+<li><a href="">Terms of use</a></li>
+<li><a href="../index.html">Web design by Talana</a></li>
+<li><a href="https://central.mystudentswa.com/talanasw/it161/final/dragons.html"><img src="images/html5.png" alt="html5"></a></li>
+</ul>
+
+</footer>
+</body>
+</html>
