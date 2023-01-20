@@ -1,0 +1,316 @@
+/*Styles for my Travel Website*/
+
+* {
+margin:0;
+padding:0; 
+box-sizing: border-box;   
+}
+
+.about figcaption {
+    text-align: center;
+    background:none;
+    padding:8px 0;
+}
+
+.col-8 {
+    width:460px;
+    /*height:400px;*/
+   /* background:plum;*/
+    float:left;
+
+}
+
+.col-8:last-of-type {
+    float:right;
+}
+
+.home #primary li:nth-child(1) a, 
+.about #primary li:nth-child(2) a,
+.tours #primary li:nth-child(3) a,
+.promos #primary li:nth-child(4) a,
+.contact #primary li:nth-child(5) a
+{
+    background:skyblue;
+    color:#fff
+}
+
+.inner-header {
+    width:940px;
+    margin:0 auto;
+}
+
+.row {
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.social {
+    position: fixed;
+    bottom: 300px;
+    right:20px;
+    list-style: none;
+}
+
+.social li {
+    margin-bottom: 15px;
+}
+
+
+
+.third {
+    width:300px;
+    /*height:300px;*/
+   /* background:pink;*/
+    float:left;
+    margin-right:20px;
+}
+
+.third:last-of-type {
+    margin-right: 0;
+}
+
+.third h3,
+.col-8 h3 {
+    color:darkblue;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.third img + h3,
+.col-8 img + h3 {
+    margin:8px 0 8px 0;
+}
+
+.third p,
+.col-8 p {
+    font-size:.9em ;
+    text-align: center;
+}
+
+.tours aside{
+    background:none;
+   /* border:1px solid goldenrod;*/
+   padding:15px 0 0 0;
+}
+
+.tours h3{
+    color:rgb(53, 52, 52);
+}
+
+aside {
+    width:310px;
+    padding:15px;
+    background:goldenrod;
+    float:right;
+    margin-top:20px;
+}
+
+aside p {
+font-size: .9em;
+
+}
+
+body {
+background: lightcyan;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+figure {
+margin-bottom: 15px;
+
+}
+
+figcaption {
+background: #000;
+color: #fff;
+font-size: .875em;
+padding:8px;
+font-style: italic;
+}
+
+figure img {
+    margin:0 auto;
+}
+
+footer {
+    height:50px;
+    border-top: 1px dotted #666;
+    clear: both;
+    line-height: 50px; 
+    font-size: .9em;      
+}
+
+footer a {
+    color:#666
+}
+
+footer img {
+    margin-top:4px;
+}
+
+footer li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    color:#666
+}
+
+/*do not forget to declare a width for your header if you are positioning your header "fixed"*/
+
+header {
+   background: #fff;
+   padding-top: 20px;
+  position: fixed;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+
+/*All of your images will have a max-width of 100%*/
+img {
+max-width:100%;
+display:block;
+}
+
+img + p {
+    margin:15px 0 20px 0;
+}
+
+main {
+    width:580px;
+    margin-top:24px;
+     /*background:lavenderblush;*/
+    float:left;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+span a {
+    color:purple;
+    font-weight:bold;
+    font: size 1.2em;
+}
+
+
+#hero {
+   
+    background:pink;
+}
+/* This is the BAD way to resize your image
+#hero img{
+    width:940px;
+}*/
+
+#logo {
+display:inline;
+margin-bottom:16px;
+}
+
+#primary {
+    height:50px;
+    background: rgb(224, 229, 235);
+    line-height: 50px;
+   
+  
+}
+
+#primary a {
+    text-decoration: none;
+    color:goldenrod;
+    display: block;
+}
+
+#primary a:hover {
+    background:skyblue;
+    color:#fff
+}
+
+#primary li {
+    list-style-type: none;
+    float:left;
+    width:20%;
+    text-align: center;
+}
+
+#primary ul {
+    width:1000px;
+    margin:0 auto;
+}
+
+#secondary{
+    margin-top: 18px;
+}
+
+ #secondary li{
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#secondary a{
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: skyblue;
+}
+
+#secondary a:hover{
+background:goldenrod;
+color:#fff;
+}
+
+#specials {
+    background:lightseagreen;
+    padding: 15px;
+}
+
+#wrapper {
+width: 940px;
+margin:160px auto 20px auto;
+
+
+}
+
+/*TYPOGRAPHY*/
+
+h1, h2, h3 {
+margin-bottom: 8px;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+line-height:1.2;
+
+
+
+}
+
+h1 {
+    color:goldenrod;
+font-weight: 200;
+font-size: 2.44em;
+
+}
+
+h2 {
+    color:darkslategray;
+    font-size: 2em;
+}
+
+h3 {
+    color:white;
+    font-size: 1.78em;
+    font-weight: 200;
+    /*text-transform: lowercase;*/
+}
+
+p {
+margin-bottom:20px;
+line-height:1.4;
+}
