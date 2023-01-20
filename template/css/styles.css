@@ -1,0 +1,224 @@
+/*Styles for our wine website*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/*.home #primary li:nth-child(1) a, 
+.about #primary li:nth-child(2) a,
+.artwork #primary li:nth-child(3) a,
+.tours #primary li:nth-child(4) a,
+.contact #primary li:nth-child(5) a
+{
+    
+}*/
+
+
+body{
+    /*background:lightseagreen;*/
+    background-image:url(../images/background.png);
+    background-repeat: repeat;
+    background-position: 220px 0;
+}
+
+header{
+    background:rgb(135, 206, 250, .7);
+    width:180px;
+    height:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+nav li{
+height: 40px;
+line-height: 40px;
+background:powderblue ;
+position: relative;
+}
+
+nav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:blue;
+    display: block;
+}
+
+nav a:hover{
+    background:lightseagreen;
+}
+
+.drop-down{
+    display: none;
+}
+
+nav li:hover .drop-down{
+display: block;
+position: absolute;
+top:0;
+left:120px;
+z-index: 1;
+width: 140px;
+list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+main img{
+    float:right;
+    padding: 10px;
+}
+
+aside img{
+    float:right;
+    padding: 10px;
+}
+
+
+
+#logo{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.row{
+  background: lightskyblue; 
+   padding:20px;
+   overflow: hidden;
+}
+.third img{
+height:200px;
+/*width:200px;*/
+max-width: 100%;
+float:right;
+padding: 10px;
+}
+
+.third{
+    width:300px;
+    height:300px;
+    /*background:lavenderblush;*/
+    margin-right: 20px;
+    float:left;
+}
+
+.third:last-of-type{
+    margin-right: 0px;
+}
+
+#wrapper{
+margin:50px 0px 100px 200px;
+width:980px;
+background:rgb(135, 206, 250, .7);
+}
+
+footer{
+    height:60px;
+    line-height: 60px;
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    left:180px;
+    background:rgb(135, 206, 250, .7);
+}
+
+footer li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+main{
+    width:480px;
+    float:left;
+    height:570px;
+    /*background:lightblue;*/
+    padding:9px;
+}
+
+aside{
+    width:340px;
+    float:right;
+    height:400px;
+    /*background: powderblue;*/
+    padding:10px;
+}
+
+
+
+
+/*Typrography*/
+h1, h2, h3 {
+    font-family: 'alex_brushregular';
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: -10px;
+    font-weight: 200;
+    color:blue
+}
+
+h2, h3{
+    font-size: 2em;
+    margin:10px;
+}
+
+
+
+/*h3{
+    font-size:1em;
+}*/
+
+blockquote{
+    font-family:'milkshakeregular';
+    font-size: 2em;
+}
+
+.third h3{
+    font-size: 1.5em;
+    font-weight:bold;
+    /*color:blue;
+    font-family: 'alex_brushregular';*/
+}
+
+aside p {
+    font-size: .9em;
+}
+
+.third p{
+    text-align:center;
+    margin-bottom:9px; 
+    font-size:.9em;
+}
+
+p {
+    margin-bottom:20px;
+line-height:1.4;
+/*text-align:center;*/
+}
+
+li img{
+    margin-top: 5px;
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'milkshakeregular';
+    src: url('../fonts/milkshake-webfont.woff2') format('woff2'),
+         url('../fonts/milkshake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
